@@ -1,13 +1,16 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.downloader {
+  width: 500px;
+  min-height: 128px;
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  overflow-y: auto;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.downloader .card-header {
+  color: #fff;
+  background-color: rgb(93 11 11 / 92%);
+}
+.downloader .card .list-group {
+  overflow: hidden;
+  overflow-y: auto;
 }

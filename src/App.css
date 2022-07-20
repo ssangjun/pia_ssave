@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.upload-box{
+  width:500px;
+  height: 300px;
+  border:1px solid gray;
+  box-shadow: 2px 3px 9px hsl(0, 0%, 47%);
+  padding:10px;
+}
